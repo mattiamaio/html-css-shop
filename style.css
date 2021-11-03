@@ -1,0 +1,34 @@
+div.container {
+    padding: 10%;
+    margin: 0 auto;
+    width: 1000px;
+}
+    
+div.shop-item{
+    display: inline-block;
+    position: relative;
+}
+.shop-item:hover>.heart{
+    color:red;
+}
+.discount {
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color:green;
+    cursor: inherit;
+}
+.heart{
+    color: transparent;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 49%;
+}
+.discount-5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    cursor: inherit;
+}
