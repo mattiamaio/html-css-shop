@@ -1,9 +1,9 @@
-div.container {
-    padding: 10%;
+div.row {
+    padding: 1%;
     margin: 0 auto;
     width: 1000px;
 }
-    
+
 div.shop-item{
     display: inline-block;
     position: relative;
@@ -16,7 +16,7 @@ div.shop-item{
     top: 0;
     right:0;
     background-color:green;
-    cursor: inherit;
+    cursor: default;
 }
 .heart{
     color: transparent;
@@ -30,5 +30,5 @@ div.shop-item{
     top: 0;
     right: 0;
     background-color: red;
-    cursor: inherit;
+    cursor: default;
 }
